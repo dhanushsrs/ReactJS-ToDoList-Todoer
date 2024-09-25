@@ -1,0 +1,81 @@
+.todo-container {
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  padding: 16px;
+  background-color: #ffffff;
+  margin-left: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.todo-container:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.todo-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-title {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.todo-date {
+  font-size: 14px;
+  color: rgb(105, 105, 102);
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: end;
+}
+
+.todo-content {
+  font-size: 14px;
+  color: gray;
+  margin-top: 8px;
+}
+
+.create-icon {
+  cursor: pointer;
+  font-size: 18px;
+  color: gray;
+}
+
+.create-icon:hover {
+  color: blue;
+}
+
+.delete-icon {
+  cursor: pointer;
+  font-size: 18px;
+  color: gray;
+}
+
+.delete-icon:hover {
+  color: red;
+}
+
+.todo-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+
+.complete-btn {
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 8px;
+  border: none;
+  outline: none;
+  background-color: grey;
+}
+
+.active {
+  background-color: green;
+}

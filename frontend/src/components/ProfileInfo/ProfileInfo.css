@@ -1,0 +1,32 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.initial-container {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #f1f5f9;
+  color: #1e293b;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.name-paragraph {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.logout-btn {
+  font-size: 16px;
+  text-decoration: underline;
+  color: #1e293b;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}

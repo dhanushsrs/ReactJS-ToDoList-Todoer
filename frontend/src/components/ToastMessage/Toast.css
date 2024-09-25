@@ -1,0 +1,79 @@
+.toast-main-container {
+  position: absolute;
+  top: 80px;
+  right: 24px;
+  transition: opacity 0.4s;
+  opacity: 0;
+}
+
+.toast-main-container.shown {
+  opacity: 1;
+}
+
+.toast-shadow-container {
+  min-width: 208px;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  position: relative;
+}
+
+/* Pseudo-element styles */
+.toast-shadow-container::after {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border-radius: 4px;
+}
+
+.toast-shadow-container.delete::after {
+  background-color: #f87171;
+}
+
+.toast-shadow-container.default::after {
+  background-color: #6ee7b7;
+}
+
+.toast-container {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 8px;
+}
+
+.check-container {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.bg-red {
+  background-color: #fef2f2;
+}
+
+.bg-green {
+  background-color: #f0fdf4;
+}
+
+.cross-icon {
+  font-size: 20px;
+  color: red;
+}
+
+.check-icon {
+  font-size: 20px;
+  color: rgb(12, 243, 12);
+}
+
+.toast-paragraph {
+  font-size: 16px;
+  color: rgb(31, 29, 29);
+}

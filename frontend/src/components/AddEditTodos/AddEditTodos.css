@@ -1,0 +1,77 @@
+.input-label {
+  font-size: 14px;
+  color: gray;
+}
+
+.popup-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title-input {
+  font-size: 22px;
+  padding: 5px;
+  color: black;
+  outline: none;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.content-area {
+  font-size: 16px;
+  color: black;
+  outline: none;
+  background-color: beige;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.add-btn {
+  background-color: yellow;
+  font-weight: 500;
+  margin-top: 10px;
+  padding: 12px;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.add-btn:hover {
+  background-color: yellowgreen;
+}
+
+.close-btn {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+}
+
+.close-btn:hover {
+  background-color: tomato;
+}
+.close-icon {
+  font-size: 20px;
+  color: gray;
+}
+
+.add-edit-container {
+  position: relative;
+}
